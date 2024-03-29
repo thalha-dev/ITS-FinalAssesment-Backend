@@ -20,8 +20,6 @@ public class OrganizationEntity {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   @Column(name = "organization_id")
   private Long id;
-  @Column(name = "org_name")
-  private String orgName;
   @Column(name = "org_nature")
   private String natureofOrg;
 }

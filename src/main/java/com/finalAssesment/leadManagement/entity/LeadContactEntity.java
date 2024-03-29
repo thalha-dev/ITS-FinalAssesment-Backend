@@ -24,4 +24,6 @@ public class LeadContactEntity {
   private String leadName;
   @Column(name = "lead_contact_email")
   private String email;
+  @Column(name = "lead_contact_mobile")
+  private String mobile;
 }

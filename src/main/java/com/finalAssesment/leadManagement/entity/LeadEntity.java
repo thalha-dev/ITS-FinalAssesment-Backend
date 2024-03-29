@@ -35,6 +35,10 @@ public class LeadEntity {
   @Column(name = "lead_urgent")
   private String urgent;
 
+  // - orgName : string
+  @Column(name = "org_name")
+  private String orgName;
+
   // FK
 
   // - leadsource : string
@@ -57,10 +61,9 @@ public class LeadEntity {
   @Column(name = "opportunity_type_id")
   private Long opportunityTypeId;
 
-  // - orgName : string
   // - natureOfOrg : string
-  @Column(name = "org_id")
-  private Long orgId;
+  @Column(name = "org_type_id")
+  private Long orgTypeId;
 
   // - domain : string
   @Column(name = "domain_id")
